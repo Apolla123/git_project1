@@ -14,6 +14,16 @@
      </widget>
     </item>
     <item>
+     <widget class="QSpinBox" name="id_spinbox">
+      <property name="minimum">
+       <number>0</number>
+      </property>
+      <property name="maximum">
+       <number>999</number>
+      </property>
+     </widget>
+    </item>
+    <item>
      <widget class="QLabel" name="name_label">
       <property name="text">
        <string>Название сорта: </string>
